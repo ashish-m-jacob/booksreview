@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem 5rem;
+}
+
+.linkItem {
+  text-decoration: none;
+  color: var(--clr-dominant);
+}
+
+.linkItem:hover {
+  transition: 0.2s;
+  color: var(--clr-accent);
+}

@@ -1,0 +1,23 @@
+form {
+  background-color: var(--clr-complement);
+  margin-top: 1.2rem;
+  text-align: center;
+}
+
+.input-box2 {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: var(--clr-complement);
+  border: 1px solid var(--clr-accent);
+  border-radius: 5px;
+}
+
+.input-box2:focus {
+  outline: none;
+  border: 1px solid var(--clr-dominant);
+}
+
+.input-box2::placeholder {
+  color: var(--clr-accent);
+}
